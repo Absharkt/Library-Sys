@@ -1,0 +1,42 @@
+section{
+    padding: 30px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.cards{
+    height: 120px;
+    width: 250px;
+    background-color: #d8d8d8;
+    border-radius: 5px;
+    margin-left: 20px;
+    box-shadow: .2px .2px 2px rgb(184, 184, 184);
+    color: rgb(19, 76, 129);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.details{
+    padding: 10px;
+
+}
+
+
+.cards:hover{
+    background-color:#c9c9c9 ;
+    box-shadow: .4px .5px  4px rgb(117, 117, 117);
+
+}
+
+tr:hover{
+    background-color: #c9c9c9;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+table{
+    margin: 20px;
+}

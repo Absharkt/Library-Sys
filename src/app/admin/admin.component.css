@@ -1,0 +1,15 @@
+.side-nav{
+    width: 200px;
+    background-color:#096b7c;
+    margin-top: 1px;
+    height: 92vh;
+
+    position: sticky;
+    top: 58px;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+}
+

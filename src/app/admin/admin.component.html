@@ -1,0 +1,31 @@
+<div>
+  <nav class=" header navbar navbar-expand-lg navbar-light bg-info ">
+    <a class="navbar-brand text-white" href="#">Welcome,</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link disabled">Disabled</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="d-flex">
+
+    <div class="side-nav">
+      <div class="p-3">
+        <button class="btn btn-light m-2 " routerLink="students">Manage Students</button>
+        <button class="btn btn-light m-2" routerLink="books">Manage Books</button>
+      </div>
+    </div>
+
+    <div>
+      <router-outlet></router-outlet>
+    </div>
+
+  </div>
+</div>
